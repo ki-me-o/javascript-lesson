@@ -8,7 +8,24 @@
   <script>
     // Your JavaScript goes here!
     console.log("Hello, World!")
-    
+    // add7
+    function add7(addend) {
+      return addend + 7;
+    }
+    // multiply
+    function multiply(multiplicand, multiplier) {
+      return multiplicand * multiplier;
+    }
+    // capitalize
+    function capitalize(uncapString) {
+      let newString = uncapString.toLowerCase();
+      let firstChar = newString.slice(0,1)
+      return firstChar.toUpperCase() + newString.slice(1)
+    }
+    // lastLetter
+    function lastLetter(fullString) {
+      return fullString.slice(-1)
+    }
   </script>
 </body>
 </html>
